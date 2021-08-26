@@ -30,16 +30,13 @@ terraform import aws_cognito_user_pool_domain.main jgwtest
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=0.14.8 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 3.45.0 |
+No requirements.
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.45.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
 
@@ -49,9 +46,9 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aws_cognito_user_pool.pool](https://registry.terraform.io/providers/hashicorp/aws/3.45.0/docs/resources/cognito_user_pool) | resource |
-| [aws_cognito_user_pool_client.client](https://registry.terraform.io/providers/hashicorp/aws/3.45.0/docs/resources/cognito_user_pool_client) | resource |
-| [aws_cognito_user_pool_domain.main](https://registry.terraform.io/providers/hashicorp/aws/3.45.0/docs/resources/cognito_user_pool_domain) | resource |
+| [aws_cognito_user_pool.pool](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool) | resource |
+| [aws_cognito_user_pool_client.client](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_client) | resource |
+| [aws_cognito_user_pool_domain.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_domain) | resource |
 
 ## Inputs
 
