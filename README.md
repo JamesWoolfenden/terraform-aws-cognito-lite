@@ -28,15 +28,16 @@ terraform import aws_cognito_user_pool_domain.main jgwtest
 <https://jgwtest.auth.eu-west-2.amazoncognito.com/login?response_type=token&client_id=6utkcost639i6dhp0ndfbrmihd&redirect_uri=https://example.com>
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
 ## Requirements
 
 No requirements.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| Name                                             | Version |
+| ------------------------------------------------ | ------- |
+| <a name="provider_aws"></a> [aws](#provider_aws) | n/a     |
 
 ## Modules
 
@@ -44,28 +45,29 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [aws_cognito_user_pool.pool](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool) | resource |
+| Name                                                                                                                                        | Type     |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [aws_cognito_user_pool.pool](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool)                 | resource |
 | [aws_cognito_user_pool_client.client](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_client) | resource |
-| [aws_cognito_user_pool_domain.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_domain) | resource |
+| [aws_cognito_user_pool_domain.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_domain)   | resource |
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_callback_urls"></a> [callback\_urls](#input\_callback\_urls) | n/a | `list(any)` | <pre>[<br>  "https://example.com"<br>]</pre> | no |
-| <a name="input_client_name"></a> [client\_name](#input\_client\_name) | n/a | `string` | `"client"` | no |
-| <a name="input_domain_prefix"></a> [domain\_prefix](#input\_domain\_prefix) | (optional) describe your variable | `string` | `"jgwtest"` | no |
-| <a name="input_user_pool"></a> [user\_pool](#input\_user\_pool) | n/a | `string` | `"testpool1"` | no |
+| Name                                                                     | Description                       | Type        | Default                                     | Required |
+| ------------------------------------------------------------------------ | --------------------------------- | ----------- | ------------------------------------------- | :------: |
+| <a name="input_callback_urls"></a> [callback_urls](#input_callback_urls) | n/a                               | `list(any)` | <pre>[<br> "https://example.com"<br>]</pre> |    no    |
+| <a name="input_client_name"></a> [client_name](#input_client_name)       | n/a                               | `string`    | `"client"`                                  |    no    |
+| <a name="input_domain_prefix"></a> [domain_prefix](#input_domain_prefix) | (optional) describe your variable | `string`    | `"jgwtest"`                                 |    no    |
+| <a name="input_user_pool"></a> [user_pool](#input_user_pool)             | n/a                               | `string`    | `"testpool1"`                               |    no    |
 
 ## Outputs
 
-| Name | Description |
-|------|-------------|
-| <a name="output_domain"></a> [domain](#output\_domain) | n/a |
-| <a name="output_user_pool"></a> [user\_pool](#output\_user\_pool) | n/a |
-| <a name="output_user_pool_client"></a> [user\_pool\_client](#output\_user\_pool\_client) | n/a |
+| Name                                                                                | Description |
+| ----------------------------------------------------------------------------------- | ----------- |
+| <a name="output_domain"></a> [domain](#output_domain)                               | n/a         |
+| <a name="output_user_pool"></a> [user_pool](#output_user_pool)                      | n/a         |
+| <a name="output_user_pool_client"></a> [user_pool_client](#output_user_pool_client) | n/a         |
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Instructions
@@ -90,7 +92,7 @@ Please use the [issue tracker](https://github.com/jameswoolfenden/terraform-aws-
 
 ## Copyrights
 
-Copyright � 2019-2021 James Woolfenden
+Copyright � 2019-2022 James Woolfenden
 
 ## License
 
